@@ -124,3 +124,39 @@ Ces modifications peuvent être effectuées via une interface dédiée :
 
 ---
 
+### Installation
+
+#### 1. **Configurer le serveur**
+
+Exécutez les commandes suivantes dans le répertoire du serveur :
+
+```bash
+cd server
+npm install
+npm run start
+```
+
+---
+
+#### 2. **Configurer le client**
+
+Exécutez les commandes suivantes dans le répertoire du client :
+
+```bash
+cd client
+npm install
+npm install react-router-dom --legacy-peer-deps
+node --openssl-legacy-provider ./node_modules/react-scripts/scripts/start.js
+```
+
+---
+
+#### 3. **Configurer la base de données**
+
+Nous utilisons **MySQL** pour ce projet.
+
+1. Dans le répertoire `database`, vous trouverez le fichier `createTables.sql`. Utilisez ce fichier pour créer les tables nécessaires dans votre base de données MySQL.
+
+2. Si vous rencontrez des problèmes de connexion avec la base de données, vérifiez le fichier `connection.js` dans le dossier du serveur et assurez-vous que les paramètres de connexion (hôte, utilisateur, mot de passe, base de données, port) sont corrects.
+
+---
