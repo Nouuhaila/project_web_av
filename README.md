@@ -1,6 +1,6 @@
 # Application de Gestion d'E-commerce
 
-Ce projet est une application de gestion d'e-commerce développée dans le cadre d'un projet académique. Elle propose des fonctionnalités pour les utilisateurs, les vendeurs et les administrateurs, avec une interface intuitive et des fonctionnalités robustes.
+Ce projet est une application de gestion d'e-commerce développée dans le cadre d'un projet académique. Elle offre des fonctionnalités dédiées aux utilisateurs, aux vendeurs et aux administrateurs, avec une interface simple et intuitive, ainsi que des fonctionnalités robustes et fiables.
 
 ---
 
