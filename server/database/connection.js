@@ -14,7 +14,7 @@ if (useLocalhost) {
         host: "localhost",
         password: "",
         database: "ecommerce",
-        port: 3307,
+        port: 3306,
     };
 } else {
     connectionParams = {
